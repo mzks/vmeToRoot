@@ -1,0 +1,9 @@
+Fill.C - C++ program with ROOT TOOLKIT
+This program convert raw data in /rawData to root data in /rootData
+Usage:	$make
+		$./Fill -n <raw data filename>
+
+Draw.cc - ROOT macro
+This macro show histgram in root data made by Fill.C
+Usage:	$root Draw.C
+
